@@ -1,8 +1,9 @@
-name: Deploy
+name: Master
+
 on:
   push:
     branches:
-      - main
+      - 'main'
 jobs:
   build:
     name: Deploy docs to GitHub Pages
