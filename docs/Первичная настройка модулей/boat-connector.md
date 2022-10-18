@@ -8,15 +8,15 @@ Linux на ARM. Ниже приведена универсальная инст�
 
 ### Склонировать репозиторий
 
-       ```shell
-       git clone https://github.com/mospolytech-solar-regatta/solar-boat-connector
-       ```
+```shell
+git clone https://github.com/mospolytech-solar-regatta/solar-boat-connector
+```
 
 ### Перейти в директорию проекта
 
-       ```shell
-       cd solar-boat-connector
-       ```
+```shell
+cd solar-boat-connector
+```
 
 ### Создать виртуальное окружение
 
