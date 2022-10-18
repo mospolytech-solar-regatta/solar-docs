@@ -96,7 +96,7 @@ cd solar-boat-connector
      - POSTGRES_SERVER=адрес сервера PostgreSQL
      - POSTGRES_USER=созданный пользователь PostgreSQL
      - POSTGRES_PORT=порт сервера PostgreSQL
-     - REDIS_DSN=url подключения к redis (стандартный - `redis://localhost/`)
+     - REDIS_DSN=url подключения к redis (стандартный - redis://localhost/)
 
 ### Запустить миграции базы данных
 
