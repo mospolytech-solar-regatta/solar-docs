@@ -1,0 +1,28 @@
+site_name: Solar Documentation
+theme:
+  name: material
+  language: ru
+  features:
+    - content.code.annotate
+    - content.tabs.link
+
+
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
