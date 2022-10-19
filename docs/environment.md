@@ -19,10 +19,11 @@
 4. Запустить Redis в docker
 
 ```shell
-docker run -d -p 6379:6379 --name solar-redis redis:latest
+docker run -d -p 6379:6379 --restart always --name solar-redis redis:latest
 ```
 5. Проверить работоспособность redis из интерфейса docker desktop
-6. [Опционально] Скачать и установить RedisInsight с официального [сайта](https://download.redisinsight.redis.com/latest/RedisInsight-v2-win-installer.exe)
+
+6. (Опционально) Скачать и установить RedisInsight с официального [сайта](https://download.redisinsight.redis.com/latest/RedisInsight-v2-win-installer.exe)
 
 ## Установка зависимостей Linux/MacOS
 Для установки на Linux/MacOS пройдите шаги инструкции для Windows, на всех указанных сайтах можно скачать также дистрибутивы для Linux/MacOS
