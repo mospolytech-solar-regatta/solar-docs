@@ -15,7 +15,7 @@ git clone https://github.com/mospolytech-solar-regatta/solar-boat-connector
 ### Перейти в директорию проекта
 
 ```shell
-cd solar-boat-connector
+cd solar-boat-connector.md
 ```
 
 ### Создать виртуальное окружение
